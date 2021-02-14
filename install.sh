@@ -3,6 +3,7 @@ sudo apt-get update
 sudo apt-get -y install git-all
 sudo apt-get -y install python-pip python-dev build-essential
 sudo easy_install pip
+sudo service apache2 stop
 sudo apt-get -y install nginx
 sudo systemctl restart nginx
 sudo rm /etc/nginx/sites-available/default
