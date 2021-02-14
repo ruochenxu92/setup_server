@@ -6,4 +6,4 @@ sudo easy_install pip
 sudo apt-get -y install nginx
 sudo systemctl restart nginx
 sudo rm /etc/nginx/sites-available/default
-sudo wget -O /etc/nginx/sites-available https://raw.githubusercontent.com/ruochenxu92/setup_server/master/default
+sudo wget -O /etc/nginx/sites-available/default https://raw.githubusercontent.com/ruochenxu92/setup_server/master/default
