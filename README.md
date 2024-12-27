@@ -1,8 +1,13 @@
-Well, I don't know what's the default behaviour for adduser but I think you should specify the options explicity. Like:
+1. 创建带有主目录的新用户：
 
-sudo useradd -d /home/testuser -m testuser
+sudo useradd -d /home/ubuntu -m ubuntu
+
+-d /home/testuser – 指定新用户的主目录路径。
+-m – 如果主目录不存在，则自动创建。
+
+ubuntu – 新用户的用户名。
 
 
-the command above set the home directory for the new user and create it (-m) if necessary. Then you need to set the password for the new user:
 
+2. 为用户设置密码：
 sudo passwd testuser
